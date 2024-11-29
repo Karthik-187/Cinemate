@@ -99,7 +99,7 @@ def main():
         unsafe_allow_html=True
     )
 
-    st.markdown("<h1 class='title'>CINIMATE</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='title'>CINEMATE</h1>", unsafe_allow_html=True)
 
     # Sidebar - Movie Title Slider
     movie_title = st.sidebar.selectbox("Select a Movie", options=movie['title'])
